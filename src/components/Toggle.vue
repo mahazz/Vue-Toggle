@@ -54,45 +54,4 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-.fa-user:before {
-  content: "\f007";
-}
-.main {
-  height: 100%;
-  padding: 3em 2em;
-  text-align: center;
-  overflow: auto;
-}
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #4e4a46;
-  text-decoration: none;
-
-  &:hover,
-  &:focus {
-    color: #7e628f;
-  }
-}
-h1 {
-  font-weight: 800;
-  font-size: 3.75em;
-}
-h6 {
-  font-size: 15px;
-  color: gray;
-}
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
 </style>
