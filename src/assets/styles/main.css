@@ -1,0 +1,25 @@
+@import "./components/_toggle.scss";
+@import "./font-awesome/css/font-awesome.css";
+@import "./font-awesome/css/font-awesome.min.css";
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #ebdb52;
+  font-family: "Raleway", Arial, sans-serif;
+  margin: 0px;
+}
+
+#app {
+  height: 100%;
+}
