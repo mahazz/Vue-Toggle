@@ -1,54 +1,48 @@
 <template>
   <div class="main">
     <h1>
-      <a href="https://github.com/">Vue-Toggle</a>
+      <a href="https://github.com/mahazz/Vue-Toggle" v-t="'toggle_header'"></a>
     </h1>
-
-    <!-- Toggle -->
-    <label class="switch">
-      <input type="checkbox" />
-      <span class="slider round"></span>
-      <h6>Off (checked)</h6>
-    </label>
-
-    <label class="switch">
-      <input checked type="checkbox" />
-      <span class="slider round"></span>
-      <h6>On (checked)</h6>
-    </label>
+    <!-- OFF | ON -->
+    <ToggleOff />
+    <ToggleOn />
 
     <!-- Disabled toggle -->
-    <div class="disabled-toggle">
-      <label class="switch">
-        <input checked disabled type="checkbox" />
-        <span class="slider round"></span>
-        <h6>Off (disabled)</h6>
-      </label>
-      <label class="switch">
-        <input disabled type="checkbox" />
-        <span class="slider round"></span>
-        <h6>On (disabled)</h6>
-      </label>
-    </div>
-    <!-- Toggle without background color -->
-    <label class="switch">
-      <input checked type="checkbox" />
-      <span class="slider round w-color"></span>
-      <h6>Custom toggle</h6>
-    </label>
+    <DisabledToggle />
+
+    <!-- Custom Toggler -->
+    <ToggleCustom />
 
     <!-- Toggle Rolling  with icons-->
-    <label class="switch">
-      <input checked type="checkbox" />
-      <span class="slider round icon"></span>
-      <h6>Toggle & icons</h6>
-    </label>
+    <ToggleIcon />
   </div>
 </template>
 
 <script>
+import ToggleOff from "./Toggle/ToggleOff";
+import ToggleOn from "./Toggle/ToggleOn";
+import DisabledToggle from "./Toggle/DisabledToggle";
+import ToggleCustom from "./Toggle/ToggleCustom";
+import ToggleIcon from "./Toggle/ToggleIcon";
+
 export default {
-  name: "Toggle"
+  name: "Toggle",
+  components: {
+    ToggleOff,
+    ToggleOn,
+    DisabledToggle,
+    ToggleCustom,
+    ToggleIcon
+  },
+  message: {
+    toggle_header: "Vue-Toggle",
+    de: "Hallo du, Vuejs"
+  },
+  currentLocale: "en",
+  locales: [
+    { id: "en", name: "English" },
+    { id: "de", name: "Deutsch" }
+  ]
 };
 </script>
 
