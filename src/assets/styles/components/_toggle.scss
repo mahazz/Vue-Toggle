@@ -41,6 +41,13 @@ input:checked + .icon::before {
   transform: rotate(45deg);
   padding-top: 5px;
 }
+.toggle {
+  font-family: "FontAwesome";
+  font-style: normal !important;
+}
+.dev-footer {
+  margin-top: 71px;
+}
 input + .icon::before {
   font-family: "FontAwesome";
   content: "\f00d";

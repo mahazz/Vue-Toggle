@@ -10,17 +10,7 @@
 export default {
   name: "Toggleicon",
   data() {},
-  message: {
-    en: "Hello you, Vue.js!",
-    de: "Hallo du, Vuejs"
-  },
-  currentLocale: "en",
-  locales: [
-    { id: "en", name: "English" },
-    { id: "de", name: "Deutsch" }
-  ]
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
