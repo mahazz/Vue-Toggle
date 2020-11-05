@@ -11,6 +11,7 @@
     "name": "Maha Alzahrani",
     "email": "mahmalzahrany@gmail.com"
   },
+  "license": "ISC",
   "keywords": [
     "vuejs",
     "vue-toggle"
