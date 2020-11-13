@@ -1,6 +1,6 @@
 {
   "name": "vue-toggle-switcher",
-  "version": "0.2.0",
+  "version": "2.0.1",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -14,7 +14,8 @@
   "license": "ISC",
   "keywords": [
     "vuejs",
-    "vue-toggle"
+    "vue-toggle",
+    "toggle"
   ],
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",

@@ -1,17 +1,22 @@
 <template>
   <div id="app">
+    <Toggle />
     <router-view />
   </div>
 </template>
 <script>
+import Toggle from "./components/Toggle";
+
 export default {
   name: "App",
   metaInfo() {
     return {
-      title: "Vue-Toggle",
+      title: "Vue-Toggle"
     };
   },
-  components: {},
+  components: {
+    Toggle
+  }
 };
 </script>
 

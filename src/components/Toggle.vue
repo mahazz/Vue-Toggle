@@ -1,8 +1,8 @@
 <template>
   <div class="main">
     <h1>
-      <a href="https://github.com/mahazz/Vue-Toggle"
-        >Vue-Toggle
+      <a href="https://github.com/mahazz/Vue-Toggle">
+        Vue-Toggle
         <i class="toggle fa-github-square"></i>
       </a>
     </h1>
@@ -39,8 +39,8 @@ export default {
     ToggleOn,
     DisabledToggle,
     ToggleCustom,
-    ToggleIcon,
-  },
+    ToggleIcon
+  }
 };
 </script>
 
