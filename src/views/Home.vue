@@ -11,7 +11,7 @@ import Toggle from "@/components/Toggle.vue";
 export default {
   name: "Home",
   components: {
-    Toggle,
-  },
+    Toggle
+  }
 };
 </script>
